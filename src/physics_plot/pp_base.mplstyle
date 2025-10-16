@@ -1,0 +1,46 @@
+# Reference:
+# https://blog.gwlab.page/beautiful-plots-by-matplotlib-b5ca9fe2765f
+# https://github.com/garrettj403/SciencePlots/blob/master/scienceplots/styles/science.mplstyle
+
+
+# Set default figure size
+figure.figsize : 4, 3
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 3
+xtick.major.width : 0.5
+xtick.major.pad : 7
+xtick.minor.size : 1.5
+xtick.minor.width : 0.5
+xtick.minor.visible : True
+xtick.top : True
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 3
+ytick.major.width : 0.5
+ytick.major.pad : 4
+ytick.minor.size : 1.5
+ytick.minor.width : 0.5
+ytick.minor.visible : True
+ytick.right : True
+
+# Set line widths
+axes.linewidth : 0.5
+grid.linewidth : 0.5
+lines.linewidth : 1
+
+# Use serif fonts
+font.family : serif
+mathtext.fontset : dejavuserif
+
+# Use LaTeX for math formatting
+text.usetex : True
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
+
+# Grid Color
+grid.color : 0.5
+
+# Save Fig
+savefig.dpi : 300
