@@ -40,7 +40,11 @@ text.usetex : True
 text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
 
 # Grid Color
-grid.color : 0.5
+grid.color : "0.9"
+
+# Legend
+legend.fancybox : False
+legend.fontsize : small
 
 # Save Fig
-savefig.dpi : 300
+savefig.dpi : 600
