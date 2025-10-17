@@ -1,6 +1,6 @@
 [project]
 name = "physics-plot"
-version = "0.1.0.post2"
+version = "0.1.0.post3"
 description = "matplotlib styles and utils"
 readme = "README.md"
 authors = [
@@ -11,7 +11,7 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/c0rychu/physics-plot"
-Documentation = "https://github.com/c0rychu/physics-plot"
+Documentation = "https://c0rychu.github.io/physics-plot/"
 Repository = "https://github.com/c0rychu/physics-plot.git"
 Issues = "https://github.com/c0rychu/physics-plot/issues"
 

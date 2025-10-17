@@ -2,7 +2,10 @@
 
 [![PyPI - Version](https://img.shields.io/pypi/v/physics-plot)](https://pypi.org/project/physics-plot/)
 
-`physics-plot` is a lightweight Matplotlib add-on that ships a publication-friendly plotting style and a few helper utilities. 
+`physics-plot` is a lightweight python package shipping a [Matplotlib style sheet](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html) called [`pp_base.mplstyle`](https://github.com/c0rychu/physics-plot/blob/main/src/physics_plot/pp_base.mplstyle) and a few helper functions to create publication-quality plots with minimal effort.
+
+- [Documentation](https://c0rychu.github.io/physics-plot/)
+- [PyPI](https://pypi.org/project/physics-plot/)
 
 ## Features
 
