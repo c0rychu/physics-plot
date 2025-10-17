@@ -1,9 +1,10 @@
 name: docs 
 on:
   push:
-    branches:
-      - master 
-      - main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
