@@ -1,6 +1,6 @@
 # physics-plot
 
-![PyPI - Version](https://img.shields.io/pypi/v/physics-plot)
+[![PyPI - Version](https://img.shields.io/pypi/v/physics-plot)](https://pypi.org/project/physics-plot/)
 
 `physics-plot` is a lightweight Matplotlib add-on that ships a publication-friendly plotting style and a few helper utilities. 
 
