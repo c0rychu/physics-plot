@@ -1,0 +1,67 @@
+site_name: Physics Plot
+site_description: Publication-quality Matplotlib styling and helper utilities.
+repo_name: c0rychu/physics-plot
+repo_url: https://github.com/c0rychu/physics-plot
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+nav:
+  - Home: index.md
+  - Guides:
+    - More about Matplotlib:
+      - 01 - plot size: mpl/mpl-size.md
+      - 02 - plt vs fig and ax: mpl/mpl-plt-fig-ax.md
+    - Utilities:
+      - Legend: util-legend-handles.md
+  - Examples: examples.md
+  - Misc:
+    - Development: development.md
+    - API: api.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: numpy
+            show_source: true
+            members_order: alphabetical
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/c0rychu/physics-plot
+watch:
+      - docs
+      - src/physics_plot
