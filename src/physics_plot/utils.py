@@ -11,6 +11,25 @@ class Handles(list):
         """
         super().__init__(*args)
 
+    def append(self, object):
+        """Append an object to the handle list.
+        If the object is a single-element list, append its only element
+        instead.
+
+        Parameters
+        ----------
+        object : Any
+            Object to append to the handle list.
+
+        Returns
+        -------
+        None
+        """
+        if isinstance(object, list) and len(object) == 1:
+            super().append(object[0])
+        else:
+            super().append(object)
+
     def append_violinplot(self, violinplot, label):
         """Append a legend patch constructed from a violin plot.
 
