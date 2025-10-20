@@ -49,11 +49,11 @@ with plt.style.context("physics_plot.pp_base"):
 
 ## Examples
 
-- **Bode plot** (`examples/bode-plot.py`) generates a two-panel magnitude/phase plot for a first-order low-pass filter.
+- **Bode plot** ([`examples/bode-plot.py`](https://github.com/c0rychu/physics-plot/blob/main/examples/bode-plot.py)) generates a two-panel magnitude/phase plot for a first-order low-pass filter.
   
   ![Bode plot](https://raw.githubusercontent.com/c0rychu/physics-plot/main/examples/bode-plot%402x.png)
 
-- **Violin plot** (`examples/violin-plot.ipynb`) demonstrates how to pair `Handles` with `Axes.violinplot` so the legend of the violin plot can be created, which is absent in Matplotlib.
+- **Violin plot** ([`examples/violin-plot.ipynb`](https://github.com/c0rychu/physics-plot/blob/main/examples/violin-plot.ipynb)) demonstrates how to pair `Handles` with `Axes.violinplot` so the legend of the violin plot can be created, which is absent in Matplotlib.
 
   ![Violin plot](https://raw.githubusercontent.com/c0rychu/physics-plot/main/examples/violin-plot%402x.png)
 
