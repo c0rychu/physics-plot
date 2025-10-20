@@ -70,6 +70,8 @@ license.
 
 ### Third-Party Licenses
 This project includes or adapts files from:
+- [**SciencePlots**](https://github.com/garrettj403/SciencePlots) (MIT License)
+  Copyright (c) 2018 John Garrett
 - [**Matplotlib**](https://github.com/matplotlib/matplotlib) (BSD-compatible license)
   Copyright (c) 2012– Matplotlib Development Team
 - [**Seaborn**](https://github.com/mwaskom/seaborn) (BSD 3-Clause License)
