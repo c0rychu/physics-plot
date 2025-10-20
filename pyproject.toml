@@ -1,7 +1,7 @@
 [project]
 name = "physics-plot"
-version = "0.2.1"
-description = "matplotlib styles and utils"
+version = "0.2.2"
+description = "Publication-quality Matplotlib styling and helper utilities for scientific plots"
 readme = "README.md"
 authors = [
     { name = "Cory Chu", email = "cory@gwlab.page" }
