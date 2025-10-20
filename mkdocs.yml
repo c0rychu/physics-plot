@@ -47,16 +47,19 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path: [docs, .]
   - pymdownx.superfences
 plugins:
-  - search
   - mkdocstrings:
       handlers:
         python:
+          paths: [src]
           options:
-            docstring_style: numpy
+            show_root_heading: true
+            show_submodules: true
             show_source: true
+            docstring_style: numpy
             members_order: alphabetical
 extra:
   social:

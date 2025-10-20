@@ -2,6 +2,12 @@
 
 See the [examples directory on GitHub](https://github.com/c0rychu/physics-plot/tree/main/examples).
 
+
+```python title="examples/bode-plot.py"
+--8<-- "examples/bode-plot.py"
+```
+![Bode plot example](https://raw.githubusercontent.com/c0rychu/physics-plot/main/examples/bode-plot%402x.png)
+
 <!-- Physics Plot ships with runnable demos so you can see how the style sheet and utilities behave on real data. Clone the repository locally, install the dependencies, and run the scripts from the project root.
 
 ## Bode Plot
