@@ -1,0 +1,15 @@
+# Taken from https://github.com/matplotlib/matplotlib/blob/v3.10.7/lib/matplotlib/mpl-data/stylelib/ggplot.mplstyle
+# 
+# This style file is adapted from Matplotlib’s "ggplot.mplstyle"
+# (https://github.com/matplotlib/matplotlib)
+# Copyright (c) 2012– Matplotlib Development Team.
+# Licensed under the Matplotlib License Agreement (BSD-compatible).
+
+axes.prop_cycle: cycler('color', ['E24A33', '348ABD', '988ED5', '777777', 'FBC15E', '8EBA42', 'FFB5B8'])
+                   # E24A33 : red
+                   # 348ABD : blue
+                   # 988ED5 : purple
+                   # 777777 : gray
+                   # FBC15E : yellow
+                   # 8EBA42 : green
+                   # FFB5B8 : pink
