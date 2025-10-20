@@ -64,5 +64,13 @@ Feel free to start from either example when styling your own figures.
 - Coming soon
 
 ## License
-
+This project is licensed under the
 [MIT](LICENSE)
+license.
+
+### Third-Party Licenses
+This project includes or adapts files from:
+- [**Matplotlib**](https://github.com/matplotlib/matplotlib) (BSD-compatible license)
+  Copyright (c) 2012– Matplotlib Development Team
+- [**Seaborn**](https://github.com/mwaskom/seaborn) (BSD 3-Clause License)
+  Copyright (c) 2012–2023, Michael L. Waskom

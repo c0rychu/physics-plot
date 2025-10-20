@@ -1,0 +1,7 @@
+# Taken from https://github.com/mwaskom/seaborn/blob/v0.13/seaborn/palettes.py
+# 
+# This style file is adapted from Seaborn (https://github.com/mwaskom/seaborn)
+# Copyright (c) 2012–2023, Michael L. Waskom
+# Licensed under the BSD 3-Clause License.
+
+axes.prop_cycle: cycler("color", ["#0173B2", "#DE8F05", "#029E73", "#D55E00", "#CC78BC", "#CA9161", "#FBAFE4", "#949494", "#ECE133", "#56B4E9"])
