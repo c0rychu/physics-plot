@@ -32,6 +32,7 @@ nav:
     - More about Matplotlib:
       - 01 - plot size: mpl/mpl-size.md
       - 02 - plt vs fig and ax: mpl/mpl-plt-fig-ax.md
+      - 03 - Colors: color/color.md
     - Utilities:
       - Legend: util-legend-handles.md
   - Examples: examples.md
