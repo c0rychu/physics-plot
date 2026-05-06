@@ -47,5 +47,26 @@ with plt.style.context("physics_plot.pp_base"):
 
 Yes! That's it! You are now ready to create beautiful, publication-quality plots with minimal effort using the `physics-plot` style. Enjoy plotting!
 
+!!! tip "Interferences with other styles"
+    If you are using some other packages that override the default Matplotlib style globally, you may add "defalut" to the beginning of the style list to reset all the default settings before applying the `physics-plot` style. For example:
+    ```python
+    import matplotlib.pyplot as plt
+
+    plt.style.use(["default", "physics_plot.pp_base"])
+
+    # ======================= #
+    # Your plotting code here #
+    # ======================= #
+    ```
+    or
+    ```python
+    import matplotlib.pyplot as plt
+
+    with plt.style.context(["default", "physics_plot.pp_base"]):
+        # ======================= #
+        # Your plotting code here #
+        # ======================= #
+    ```
+
 
 [^mplstyle]: Matplotlib style sheets (`.mplstyle` files) are configuration files that define the default appearance of plots created with Matplotlib. They allow users to customize various aspects of plot aesthetics, such as colors, fonts, line styles, and more, by specifying these settings in a structured format. See [Matplotlib Style Sheets Reference](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html) for more details. Also, a default template can be found in the [Matplotlib documentation - Customizing Matplotlib with style sheets and rcParams](https://matplotlib.org/stable/users/explain/customizing.html#the-default-matplotlibrc-file) and its [source](https://github.com/matplotlib/matplotlib/blob/main/lib/matplotlib/mpl-data/matplotlibrc). Finally, several built-in `.mplstyle` files can be found [here](https://github.com/matplotlib/matplotlib/tree/main/lib/matplotlib/mpl-data/stylelib).
